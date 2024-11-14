@@ -34,6 +34,8 @@ Install environment
 ```bash
 pip install -r requirements.txt
 ```
+
+## Weights
 Download weights and put them into the weight folder:
 
 DiffBIR (general_full_v1.ckpt): [link](https://hf-mirror.com/lxq007/DiffBIR-v2/resolve/main/v1_general.pth)
