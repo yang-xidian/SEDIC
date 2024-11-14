@@ -45,3 +45,12 @@ Cheng2020-Tuned (cheng_small.pth.tar): [link](https://www.dropbox.com/scl/fi/br0
 GroundingDINO (GroundingDINO-T): [link](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
 
 SAM (sam_vit_h_4b8939.pth): [link](https://github.com/facebookresearch/segment-anything#model-checkpoints)
+
+# test
+
+You can test this on your dataset by running the following command:
+
+```bash
+python SEDIC.py
+```
+
