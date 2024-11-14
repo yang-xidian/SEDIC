@@ -8,11 +8,16 @@
 
 # Dependency
 [GPT-4 Vision](https://openai.com/)
+
 [Stable Diffusion 2.1](https://hf-mirror.com/stabilityai/stable-diffusion-2-1)
+
 [DiffBIR](https://github.com/XPixelGroup/DiffBIR/)
+
 [CompressAI](https://github.com/InterDigitalInc/CompressAI)
-[GroundingDINO](https://github.com/InterDigitalInc/CompressAI)
-[SAM](https://github.com/InterDigitalInc/CompressAI)
+
+[GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+
+[SAM](https://segment-anything.com/)
 
 # Preparation
 
