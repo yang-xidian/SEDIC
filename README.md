@@ -34,3 +34,12 @@ Install environment
 ```bash
 pip install -r requirements.txt
 ```
+Download weights and put them into the weight folder:
+
+DiffBIR (general_full_v1.ckpt): [link](https://hf-mirror.com/lxq007/DiffBIR-v2/resolve/main/v1_general.pth)
+
+Cheng2020-Tuned (cheng_small.pth.tar): [link](https://www.dropbox.com/scl/fi/br0zu6a91wygs68afesyo/cheng_small.pth.tar?rlkey=2gdhpy3z5qank0giajacj2u9p&st=9q2y88aj&dl=0)
+
+GroundingDINO (GroundingDINO-T): [link](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth)
+
+SAM (sam_vit_h_4b8939.pth): [link](https://github.com/facebookresearch/segment-anything#model-checkpoints)
