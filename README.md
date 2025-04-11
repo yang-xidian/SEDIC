@@ -1,4 +1,4 @@
-# Taming Large Multimodal Agents for Ultra-low bitrate Semantically Distangled Image Compression
+# Extremely low-bitrate Image Compression Semantically Disentangled by LMMs from a Human Perception Perspective
 
 
 [![PDF Thumbnail](./method.jpg)](https://github.com/yang-xidian/SEDIC/blob/main/method.pdf)
