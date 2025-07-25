@@ -69,8 +69,8 @@ def load_model_from_url(url: str) -> Dict[str, torch.Tensor]:
     return sd
 
 # load model
-cldm: ControlLDM = instantiate_from_config(OmegaConf.load('./DiffBIR-main/configs/inference/cldm.yaml'))
-diffusion: Diffusion = instantiate_from_config(OmegaConf.load("./DiffBIR-main/configs/inference/diffusion.yaml"))
+cldm: ControlLDM = instantiate_from_config(OmegaConf.load('./configs/inference/cldm.yaml'))
+diffusion: Diffusion = instantiate_from_config(OmegaConf.load("./configs/inference/diffusion.yaml"))
 #cldm: ControlLDM = instantiate_from_config(OmegaConf.load('./configs/inference/cldm.yaml'))
 #diffusion: Diffusion = instantiate_from_config(OmegaConf.load("configs/inference/diffusion.yaml"))
 sd = load_model_from_url(MODELS["sd_v21"])
@@ -547,5 +547,5 @@ def Multi_stage_image_compression(image_folder="",text_path="",output_folder="")
 
 
 
-Multi_stage_image_compression(image_folder='./DiffBIR-main/step_vision_image_test',text_path="./DiffBIR-main/gpt4_text_step_test.csv",output_folder="./DiffBIR-main/test_step_result_10_1/")
+Multi_stage_image_compression(image_folder='./image_test',text_path="./gpt4_text_test.csv",output_folder="./test_result/")
 
